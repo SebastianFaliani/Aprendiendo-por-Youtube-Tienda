@@ -10,8 +10,8 @@ namespace Tienda.COMMON.Validadores
     {
         public UsuarioValidator()
         {
+            RuleFor(u => u.NombreDeUsuario).NotNull().NotEmpty().Length(1, 50);
             RuleFor(u => u.Apellidos).NotNull().NotEmpty().Length(1, 50);
-            RuleFor(u => u.NombreDeUsuario).NotNull().NotEmpty().Length(1,50);
             RuleFor(u => u.Nombres).NotNull().NotEmpty().Length(1, 50);
             RuleFor(u => u.Password).NotNull().NotEmpty().Length(1, 50);
         }

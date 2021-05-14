@@ -66,5 +66,6 @@ namespace Tienda.COMMON.Intefaces
         /// <param name="id">Id de la entidad a obtener</param>
         /// <returns>Retorna la entidad que corresponde al Id proporcionado</returns>
         T SearchById(string id);
+
     }
 }
