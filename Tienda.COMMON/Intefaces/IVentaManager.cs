@@ -16,7 +16,7 @@ namespace Tienda.COMMON.Intefaces
         /// <param name="Inicio">fecha inicio</param>
         /// <param name="fin">fecha fin</param>
         /// <returns>Conjunto de ventas efectuadas en el intervalo proporcionado</returns>
-        IEnumerable<venta> VentasEnInterbalo(DateTime Inicio, DateTime fin);
+        IEnumerable<venta> VentasEnInterbalo(DateTime inicio, DateTime fin);
 
         /// <summary>
         /// Obtiene las ventas a un cliente en un intervalos de tiempo

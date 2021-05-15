@@ -24,6 +24,7 @@ namespace Tienda.DAL.MSSqlServer
             this.idEsAutonumerico = idEsAutonumerico;
             db = new DBMSSqlServer();
         }
+
         public string Error { get; private set; }
 
         public IEnumerable<T> Read

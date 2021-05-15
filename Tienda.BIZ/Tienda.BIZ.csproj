@@ -4,4 +4,10 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Tienda.COMMON\Tienda.COMMON.csproj" />
+    <ProjectReference Include="..\Tienda.DAL.MSSqlServer\Tienda.DAL.MSSqlServer.csproj" />
+    <ProjectReference Include="..\Tienda.DAL.MySQL\Tienda.DAL.MySQL.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -39,9 +39,9 @@ namespace Tienda.COMMON.Intefaces
         /// <summary>
         /// Elimina una entidad en base al Id proporcionado
         /// </summary>
-        /// <param name="entidad">ID de la entidad a eliminar</param>
+        /// <param name="id">ID de la entidad a eliminar</param>
         /// <returns>Confirmacion o no de la Eliminacion</returns>
-        bool Eliminar(T entidad);
+        bool Eliminar(string id);
 
         /// <summary>
         /// Obtiene un elemento de acuerdo a si Id
